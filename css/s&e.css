@@ -1,0 +1,81 @@
+body{
+    background-image: url(../images/yellow.jpg);
+}
+header{
+    font-size: xx-large;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+    position: relative;
+    float: left;
+}
+nav ul li ul li{
+    width: 11em;
+}
+nav ul li a{
+    padding: 3em 2em;
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: #fad530;
+    padding: 1em ; 
+    border-radius: 0em 0em .5em .5em; 
+}
+nav ul li ul li a{
+    padding: .5em 1em;
+    display: block;
+}
+nav ul li ul li a:hover{
+    padding: 1em 1em;
+    background-color: #690a59;
+}
+nav ul li:hover ul {
+    display: block;
+}
+.portfolio{
+    font-size: 1.5em;
+    padding-right: 3em;
+}
+table{
+    height: 33em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: aqua;
+    font-size: 1.5em;
+}
+.images{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 4em;
+}
+.python{
+    padding-right: 1em;
+    width: 60vw;
+    height: 60vh;
+}
+.projects{
+    width: 60vw;
+    height: 40vh;
+    padding-top: 8.2em;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2em;
+    padding-right: 2em;
+}
+footer a {
+    color: bisque;
+}

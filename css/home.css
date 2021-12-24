@@ -1,0 +1,91 @@
+body{
+        background-image: url(../images/Brown\ \(2\).jpg);
+}
+#front{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+}
+h2{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+header{
+    font-size: xx-large;
+    display: grid;
+    padding-left: 3em;
+
+}
+div.profile_pic {
+    border-radius: 50%;
+    width:6em;
+    height: 6em;
+    background-image: url(../images/upload.jpg);
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.main_link{
+    font-size: 1.5em;
+}
+#navigation{
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+    position: relative;
+    float: left;
+}
+nav ul li ul li{
+    width: 13em;
+}
+nav ul li a{
+    /* display: block; */
+    padding: 3em 2em;
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: #696969;
+    padding: 1em ; 
+    border-radius: 0em 0em .5em .5em; 
+}
+nav ul li ul li a{
+    padding: .5em 2em;
+    display: block;
+}
+nav ul li ul li a:hover{
+    padding: 1em 2em;
+    background-color: #555d50;
+}
+nav ul li:hover ul {
+    display: block ;
+}
+img{
+    width: 90vw;
+    height: 90vh;
+    padding: 3em 3em 3em 3em;
+}
+.paragraphs{
+    padding-left: 3em;
+    font-size: xx-large;
+    color: gold;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2em;
+    padding-right: 2em;
+}
+footer a {
+    color: bisque;
+}

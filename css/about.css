@@ -1,0 +1,82 @@
+body{
+    background-image: url(../images/green.jpg);
+}
+header{
+    font-size: xx-large;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#first-div{
+    height: 18em;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+    position: relative;
+    float: left;
+}
+nav ul li ul li{
+    width: 11em;
+}
+nav ul li a{
+    padding: 3em 2em;
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: #696969;
+    padding: 1em ;
+    border-radius: 0em 0em .5em .5em;  
+}
+nav ul li ul li a{
+    padding: .5em 1em;
+    display: block;
+}
+nav ul li ul li a:hover{
+    padding: 1em 1em;
+    background-color: #555d50;
+}
+nav ul li:hover ul {
+    display: block;
+}
+.portfolio{
+    font-size: 1.5em;
+    padding-right: 3em;
+}
+.bg-image__img{
+    width: 97vw;
+    height: 135vh;
+    position: absolute;
+}
+#paragraphs{
+    position: relative;
+    padding: 60vh 3em 40vh;
+    color: orange;
+    font-size: 1.6em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+div p strong{
+    background: black;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2em;
+    padding-right: 2em;
+}
+footer a {
+    color: bisque;
+}
